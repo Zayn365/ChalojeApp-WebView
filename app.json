@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Chaloje",
-    "slug": "Chaloje",
+    "slug": "chaloje",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zayn365.chaloje"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3927da85-2e8e-4254-9bb0-f074cf9e931c"
+      }
+    },
+    "owner": "zayn365"
   }
 }
